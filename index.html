@@ -1,19 +1,16 @@
 <!DOCTYPE html>
+<meta charset="UTF-8">
 <html>
+<link rel="icon" type="image/png" href="/favicon.png" />
 <head>
     <title>Foftware team</title>
 </head>
 <style>
-    .card-row { display:flex; flex-direction:row; align-items:center; }
     .linkedin { width: 12px; height: 12px; }
     .resume { width: 15px; height: 15px; }
-    a {
-      text-decoration: none;
-      color: #000000;
-    }
     body {
-        /*background-color: rgb(25, 27, 169)*/
-        background-color: rgb(249, 248, 248)
+        background-color: rgb(249, 248, 248);
+        color: rgb(48, 56, 65);
     }
 
     .main {
@@ -37,7 +34,6 @@
         width: 200px;
         height: 300px;
         border-radius: 10px;
-        /*border: black 1px solid;*/
         background-color: white;
         box-shadow: rgba(75, 81, 91, 0.1) -1px 9px 18px 0px;
     }
@@ -45,7 +41,7 @@
     .photo {
         width: 150px;
         height: 150px;
-        border-radius: 50%;
+        border-radius: 35%;
     }
 
     .linkedin {
@@ -56,8 +52,23 @@
     .logo {
         width: 150px;
         height: 150px;
-        margin-bottom: 100px;
+        margin-top: 30px;
+        margin-bottom: 60px;
     }
+    .links {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+    .name {
+        padding-top: 20px;
+        font-weight: bold;
+    }
+    .position {
+        padding-top: 10px;
+    }
+    .link { width: 30px; height: 30px; padding-top: 30px }
 </style>
 <body>
 
@@ -67,31 +78,47 @@
     <div class="team">
         <div class="card">
             <img src="img/mbernat.jpeg" class="photo">
-            <div>Marek Bernát</div>
-            <div>Full-stack developer</div>
-            <a class="card-row" href="linkedin-url"><div>Linked-in:</div><img src="img/linkedin.svg" class="linkedin"/></a>
-            <a class="card-row" href="cv-url"><div>Resume:</div><img src="img/cv.png" class="resume"/></a>
+            <div class="name">Marek Bernát</div>
+            <div class="position">Full-stack developer</div>
+            <div class="links">
+                <a href="linkedin-url"><img src="img/linkedin.svg" class="link"/></a>
+                <a href="cv-url"><img src="img/cv.png" class="link"/></a>
+                <a href="cv-url"><img src="img/github.svg" class="link"/></a>
+                <a href="cv-url"><img src="img/email.png" class="link"/></a>
+            </div>
         </div>
         <div class="card">
             <img src="img/kidonm.png" class="photo">
-            <div>Marek Kidoň</div>
-            <div>Full-stack developer</div>
-            <a class="card-row" href="linkedin-url"><div>Linked-in:</div><img src="img/linkedin.svg" class="linkedin"/></a>
-            <a class="card-row" href="cv-url"><div>Resume:</div><img src="img/cv.png" class="resume"/></a>
+            <div class="name">Marek Kidoň</div>
+            <div class="position">Full-stack developer</div>
+            <div class="links">
+                <a href="linkedin-url"><img src="img/linkedin.svg" class="link"/></a>
+                <a href="cv-url"><img src="img/cv.png" class="link"/></a>
+                <a href="cv-url"><img src="img/github.svg" class="link"/></a>
+                <a href="cv-url"><img src="img/email.png" class="link"/></a>
+            </div>
         </div>
         <div class="card">
             <img src="img/fokot.jpeg" class="photo">
-            <div>František Kocun</div>
-            <div>Full-stack developer</div>
-            <a class="card-row" href="linkedin-url"><div>Linked-in:</div><img src="img/linkedin.svg" class="linkedin"/></a>
-            <a class="card-row" href="cv-url"><div>Resume:</div><img src="img/cv.png" class="resume"/></a>
+            <div class="name">František Kocun</div>
+            <div class="position">Full-stack developer</div>
+            <div class="links">
+                <a href="linkedin-url"><img src="img/linkedin.svg" class="link"/></a>
+                <a href="cv-url"><img src="img/cv.png" class="link"/></a>
+                <a href="cv-url"><img src="img/github.svg" class="link"/></a>
+                <a href="cv-url"><img src="img/email.png" class="link"/></a>
+            </div>
         </div>
         <div class="card">
             <img src="img/siprj.jpeg" class="photo">
-            <div>Jan Šipr</div>
-            <div>Full-stack developer</div>
-            <a class="card-row" href="linkedin-url"><div>Linked-in:</div><img src="img/linkedin.svg" class="linkedin"/></a>
-            <a class="card-row" href="cv-url"><div>Resume:</div><img src="img/cv.png" class="resume"/></a>
+            <div class="name">Jan Šipr</div>
+            <div class="position">Full-stack developer</div>
+            <div class="links">
+                <a href="linkedin-url"><img src="img/linkedin.svg" class="link"/></a>
+                <a href="cv-url"><img src="img/cv.png" class="link"/></a>
+                <a href="cv-url"><img src="img/github.svg" class="link"/></a>
+                <a href="cv-url"><img src="img/email.png" class="link"/></a>
+            </div>
         </div>
     </div>
 </div>
