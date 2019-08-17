@@ -129,7 +129,10 @@ body {
 }
 
 .about {
+    padding: 20px;
     font-size: 14pt;
     margin-bottom: 60px;
-    text-align: center;
+    text-align: justify;
+    max-width: 50%;
+    box-shadow: rgba(75, 81, 91, 0.1) -1px 9px 18px 0px;
 }
