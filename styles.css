@@ -1,0 +1,83 @@
+.linkedin {
+    width: 12px;
+    height: 12px;
+}
+
+.resume {
+    width: 15px;
+    height: 15px;
+}
+
+body {
+    background-color: rgb(249, 248, 248);
+    color: rgb(48, 56, 65);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center
+}
+
+.team {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1000px
+}
+
+.card {
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(75, 81, 91, 0.1) -1px 9px 18px 0px;
+}
+
+.photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 35%;
+}
+
+.linkedin {
+    width: 12px;
+    height: 12px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.name {
+    padding-top: 20px;
+    font-weight: bold;
+}
+
+.position {
+    padding-top: 10px;
+}
+
+.link {
+    width: 30px;
+    height: 30px;
+    padding-top: 30px
+}
+
+.about {
+    margin-bottom: 60px;
+}
