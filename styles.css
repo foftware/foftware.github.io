@@ -33,6 +33,45 @@ body {
     width: 1000px
 }
 
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+}
+
+.tooltiptext {
+  transform: translate(-50%);
+  margin-bottom: 4px;
+  padding: 5px 5px;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: black transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+
 .card {
     padding-top: 30px;
     display: flex;
@@ -77,12 +116,12 @@ body {
 
 .position {
     padding-top: 5px;
+    padding-bottom: 60px;
 }
 
 .link {
     width: 30px;
     height: 30px;
-    padding-top: 60px
 }
 
 .about {
