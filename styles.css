@@ -6,6 +6,8 @@ html {
 }
 
 body {
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: rgb(249, 248, 248);
     color: rgb(48, 56, 65);
 }
@@ -102,7 +104,6 @@ body {
 .logo {
     width: 150px;
     height: 150px;
-    margin-top: 30px;
     margin-bottom: 60px;
 }
 
