@@ -46,9 +46,9 @@ body {
 }
 
 .photo {
-    width: 150px;
-    height: 150px;
-    border-radius: 35%;
+    width: 120px;
+    height: 120px;
+    border-radius: 5%;
 }
 
 .linkedin {
@@ -76,16 +76,17 @@ body {
 }
 
 .position {
-    padding-top: 10px;
+    padding-top: 5px;
 }
 
 .link {
     width: 30px;
     height: 30px;
-    padding-top: 30px
+    padding-top: 60px
 }
 
 .about {
     font-size: 14pt;
     margin-bottom: 60px;
+    text-align: center;
 }
