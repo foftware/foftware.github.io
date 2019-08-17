@@ -29,8 +29,10 @@ body {
 .team {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    width: 1000px
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 90%;
 }
 
 .tooltip {
@@ -73,6 +75,9 @@ body {
 }
 
 .card {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
     padding-top: 30px;
     display: flex;
     flex-direction: column;
