@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
 html {
+  font-size: 12pt;
   font-family: Montserrat, serif;
 }
 
@@ -85,5 +86,6 @@ body {
 }
 
 .about {
+    font-size: 14pt;
     margin-bottom: 60px;
 }
